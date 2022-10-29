@@ -39,3 +39,19 @@
 .contenido {
   padding-top: 80px;
 }
+@media screen and (max-width:800px){
+  .main {
+   width:100%;
+  }
+  aside{
+    width: 100%;
+  }
+}
+@media screen and (max-width:400px){
+  .contenido {
+   width:100%;
+  }
+  aside{
+    display:none;
+  }
+}
